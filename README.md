@@ -33,7 +33,7 @@ ACCIDENT-SYSTEM/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/accident-system.git
+git clone https://github.com/amazyxx/accident-system.git
 cd accident-system
 python -m venv venv
 venv\Scripts\activate
