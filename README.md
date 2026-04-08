@@ -78,9 +78,11 @@ http://127.0.0:8000
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-1. Aziza Ibrahim Moahamed
-https://github.com/amazyxx
-2.Asma Mohamud Hashi
+1. Aziza Ibrahim Moahamed  
+https://github.com/amazyxx  
+
+2. Asma Mohamud Hashi  
 https://github.com/asmamohamud652
+
