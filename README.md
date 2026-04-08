@@ -80,9 +80,9 @@ http://127.0.0.1:8000
 
 ## 👤 Authors
 
-1. Aziza Ibrahim Moahamed  
-https://github.com/amazyxx  
-
-2. Asma Mohamud Hashi  
+1. Asma Mohamud Hashi  
 https://github.com/asmamohamud652
+
+2. Aziza Ibrahim Moahamed  
+https://github.com/amazyxx
 
