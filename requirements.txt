@@ -1,0 +1,7 @@
+fastapi[all]
+uvicorn
+ultralytics
+opencv-python
+twilio
+python-dotenv
+jinja2
