@@ -29,7 +29,7 @@ ACCIDENT-SYSTEM/
 ├── messaging.py        # Telegram Bot integration
 └── requirements.txt    # Project dependencies
 ---
-
+```
 ## ⚙️ Installation
 
 # Clone the repository
@@ -48,7 +48,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ---
-
+```
 ## ▶️ Usage
 
 ```bash
