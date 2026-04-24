@@ -3,8 +3,8 @@ import requests
 class AlertService:
     def __init__(self):
         # 🔑 Replace with your actual data from BotFather and UserInfoBot
-        self.token = "8611938677:AAFsQuaRsFJCn0hAzc4T1LuXHhnC4jqpSls"
-        self.chat_id = "1800738776"
+        self.token = "YOUR_API_TOKEN"
+        self.chat_id = "YOUR_CHAT_ID"
 
     def send_alert(self, message_body, image_path=None):
         try:
