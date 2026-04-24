@@ -1,7 +1,16 @@
-fastapi[all]
-uvicorn
+# Core AI and Computer Vision
 ultralytics
 opencv-python
-twilio
-python-dotenv
+torch
+torchvision
+
+# Web Framework and Streaming
+fastapi[all]
+uvicorn[standard]
 jinja2
+python-multipart
+# Removed flask (to prevent conflicts)
+
+# Alerts and Utilities
+requests
+asyncio

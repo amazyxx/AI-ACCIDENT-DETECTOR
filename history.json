@@ -1,0 +1,302 @@
+[
+    {
+        "timestamp": "2026-04-24 03:11:44",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-24 03:09:16",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:58:07",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:57:24",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:56:59",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:56:34",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:55:40",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:55:35",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:55:28",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:55:08",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:55:01",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:54:44",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:54:35",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:54:25",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:54:16",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:53:42",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:53:33",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:53:26",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:53:10",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-21 17:52:50",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:51:02",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:50:59",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:50:55",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:50:53",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:50:35",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:47:00",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:46:57",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:46:54",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:46:51",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:46:24",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:36:16",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:35:52",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:35:49",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:35:45",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:35:42",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 19:35:19",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:40",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:33",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:29",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:20",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:09",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:06",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:58:00",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:57:56",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:57:51",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:57:48",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:57:22",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:55:09",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:55:05",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    },
+    {
+        "timestamp": "2026-04-19 05:55:03",
+        "event": "Accident Detected",
+        "class": "Accident",
+        "confidence": "92.0%"
+    }
+]
