@@ -74,19 +74,19 @@ http://127.0.0.1:8000
 
 ## 📦 Requirements
 
-# Core AI and Computer Vision
+Core AI and Computer Vision
 - ultralytics
 - opencv-python
 - torch
 - torchvision
 
-# Web Framework and Streaming
+Web Framework and Streaming
 - fastapi[all]
 - uvicorn[standard]
 - jinja2
 - python-multipart
 
-# Alerts and Utilities
+Alerts and Utilities
 - requests
 - asyncio
 
