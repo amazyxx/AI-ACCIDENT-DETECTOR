@@ -31,7 +31,7 @@ ACCIDENT-SYSTEM/
 ---
 ```
 ## ⚙️ Installation
-
+```
 # Clone the repository
 git clone [https://github.com/amazyxx/accident-system.git](https://github.com/amazyxx/accident-system.git)
 cd accident-system
