@@ -8,17 +8,19 @@ import threading
 from datetime import datetime
 from fastapi import FastAPI, Request, UploadFile, File, WebSocket, WebSocketDisconnect
 from fastapi.responses import StreamingResponse, HTMLResponse, RedirectResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from ultralytics import YOLO
-
-# Internal imports
 from detection import detect_accidents
 from messaging import AlertService
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-# Load your custom trained model
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+
+# Load our trained model
 model = YOLO('best.pt')
 notifier = AlertService()
 
@@ -69,7 +71,7 @@ manager = ConnectionManager()
 CURRENT_VIDEO_PATH = None 
 USE_WEBCAM = False
 alert_sent = False
-GLOBAL_CONFIDENCE = 0.75  # Set to 0.75 based on your Precision-Confidence curves
+GLOBAL_CONFIDENCE = 0.75  # Set to 0.75 based on Precision-Confidence curves
 
 # --- ROUTES ---
 
@@ -79,9 +81,9 @@ async def index(request: Request):
 
 @app.post("/upload")
 async def upload_video(file: UploadFile = File(...)):
-    global CURRENT_VIDEO_PATH, USE_WEBCAM, alert_sent # Added USE_WEBCAM here
+    global CURRENT_VIDEO_PATH, USE_WEBCAM, alert_sent 
     
-    # 🛑 CRITICAL: Kill webcam mode so the loop switches to file
+    # CRITICAL: Kill webcam mode so the loop switches to file
     USE_WEBCAM = False 
 
     os.makedirs("uploads", exist_ok=True)
@@ -102,7 +104,7 @@ async def start_webcam():
     CURRENT_VIDEO_PATH = None
     USE_WEBCAM = True
     alert_sent = False
-    print("🎥 Live Feed Requested.")
+    print("Live Feed Requested.")
     return RedirectResponse(url="/", status_code=303)
 
 @app.get('/stop_stream')
@@ -111,7 +113,7 @@ async def stop_stream():
     CURRENT_VIDEO_PATH = None
     USE_WEBCAM = False
     alert_sent = False
-    print("🛑 System Reset. All feeds stopped.")
+    print("System Reset. All feeds stopped.")
     return RedirectResponse(url="/", status_code=303)
 
 @app.get("/set_confidence")
@@ -134,12 +136,12 @@ def gen_frames():
     global CURRENT_VIDEO_PATH, USE_WEBCAM, alert_sent, GLOBAL_CONFIDENCE
 
     while True:
-        # 1. Idle check
+        # Idle check
         if not USE_WEBCAM and CURRENT_VIDEO_PATH is None:
             time.sleep(0.5)
             continue
 
-        # 2. Pick the source
+        # Pick the source
         source = 0 if USE_WEBCAM else CURRENT_VIDEO_PATH
         cap = cv2.VideoCapture(source)
         
@@ -152,7 +154,7 @@ def gen_frames():
         time_per_frame = 1.0 / fps
 
         while cap.isOpened():
-            # 🔥 THE SWITCH: This allows you to stop the webcam or upload a new video
+            # THE SWITCH: This allows you to stop the webcam or upload a new video
             if USE_WEBCAM and source != 0: break 
             if not USE_WEBCAM and source == 0: break
 
@@ -166,10 +168,10 @@ def gen_frames():
             if not success:
                 break
 
-            # 3. Detection
+            # Detection
             annotated_frame, accident_found = detect_accidents(frame, conf_threshold=GLOBAL_CONFIDENCE)
             
-            # 4. Telegram Logic
+            # Telegram Logic
             if accident_found:
                 consecutive_accident_frames += 1
                 
@@ -177,13 +179,13 @@ def gen_frames():
                 if consecutive_accident_frames == 2: 
                     print("🚀 TRIGGERING TELEGRAM ALERT...")
                     
-                    # 1. Create the folder if it doesn't exist
+                    # Create the folder if it doesn't exist
                     os.makedirs("alerts", exist_ok=True)
                     
-                    # 2. Point the 'snap' variable to the new folder
+                    # Point the 'snap' variable to the new folder
                     snap = f"alerts/accident_{int(time.time())}.jpg"
                     
-                    # 3. Save the image into that folder
+                    # Save the image into that folder
                     cv2.imwrite(snap, annotated_frame)
                     
                     msg = "🚨 ACCIDENT DETECTED!"
@@ -191,7 +193,7 @@ def gen_frames():
             else:
                 consecutive_accident_frames = 0
 
-            # 5. Output to Browser
+            # Output to Browser
             ret, buffer = cv2.imencode('.jpg', annotated_frame, [int(cv2.IMWRITE_JPEG_QUALITY), 75])
             if not ret:
                 continue
