@@ -1,4 +1,4 @@
-# 🚗 AI Accident Detection System
+# 🚗 AI-Based Real-time Accident Detection System
 
 A real-time AI-powered accident detection system that uses computer vision to detect road accidents, manage live surveillance feeds, and dispatch automated Telegram alerts.
 
@@ -94,3 +94,11 @@ Alerts and Utilities
 - requests
 - asyncio
 
+## 👥 Collaborators
+This project was developed by:
+1. Asma Mohamud Hashi
+2. Aziza Ibrahim Mohamed
+3. Fadumo Jamal Salad
+4. Manar Alaa Al-Gburi
+5. Maryam Igal Issa
+6. Suad Abdirahman Abshir
