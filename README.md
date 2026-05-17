@@ -95,10 +95,12 @@ Alerts and Utilities
 - asyncio
 
 ## 👥 Collaborators
-This project was developed by:
-1. Asma Mohamud Hashi
-2. Aziza Ibrahim Mohamed
-3. Fadumo Jamal Salad
-4. Manar Alaa Al-Gburi
-5. Maryam Igal Issa
-6. Suad Abdirahman Abshir
+
+This project was developed by a cross-functional team with the following role distributions:
+
+* **Asma Mohamud Hashi** — *Backend & Core AI Engineer* ([@asmamohamud652-star](https://github.com/asmamohamud652-star))
+* **Aziza Ibrahim Mohamed** — *Project Manager & QA Lead* ([@amazyxx](https://github.com/amazyxx))
+* **Fadumo Jamal Salad** — *DevOps & Communications Engineer*
+* **Manar Alaa Al-Gburi** — *Data Scientist & ML Engineer* ([@ManarAlaa02](https://github.com/ManarAlaa02)) *(Pending Invite)*
+* **Maryam Igal Issa** — *UI/UX & Frontend Developer* ([@maryamigal222-sketch](https://github.com/maryamigal222-sketch))
+* **Suad Abdirahman Abshir** — *Full-Stack & Integration Engineer* ([@suad.abshir](https://github.com/suad.abshir))
