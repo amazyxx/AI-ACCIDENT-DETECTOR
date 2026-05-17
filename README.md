@@ -101,7 +101,7 @@ Alerts and Utilities
   <summary>▶️ Click here to view the Real-Time Accident Detection Demo</summary>
   <br>
   
-  <video src="https://i.imgur.com/vH97Zf4.mp4" controls autoplay loop muted style="max-width: 100%;"></video>
+  ![System Demo](https://i.imgur.com/vH97Zf4.gif)
 
 </details>
 
