@@ -19,6 +19,10 @@ A real-time AI-powered accident detection system that uses computer vision to de
 ```text
 ACCIDENT-SYSTEM/
 ├── alerts/             # 📸 Snapshots sent to Telegram (organized by timestamp)
+├── static/
+│   ├── script.js       # Frontend JavaScript for UI interactions
+│   └── styles.css      # CSS styling for the dashboard UI  
+│   └── AiDetector.png  # Application logo/image asset used in the UI 
 ├── templates/
 │   ├── index.html      # Dashboard UI with unified system controls
 │   └── history.html    # Archive of detected events
