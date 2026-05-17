@@ -97,13 +97,9 @@ Alerts and Utilities
 - 
 ## 📺 System Demonstration
 
-<details>
-  <summary>▶️ Click here to view the Real-Time Accident Detection Demo</summary>
-  <br>
-  
-  ![System Demo](https://i.imgur.com/vH97Zf4.gif)
+[![Watch the Live Demo](static/AiDetector.png)](https://imgur.com/gallery/ai-detector-web-demo-Z5B2WF4)
 
-</details>
+*Click the image above to watch the full real-time accident detection and alerting video demonstration on Imgur.*
 
 ## 👥 Collaborators
 
