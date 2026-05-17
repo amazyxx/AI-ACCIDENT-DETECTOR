@@ -1,3 +1,13 @@
+## 📺 System Demonstration
+
+<details>
+  <summary>▶️ Click here to view the Real-Time Accident Detection Demo</summary>
+  <br>
+  
+  <video src="https://i.imgur.com/gO1XFk8.mp4" controls autoplay loop muted style="max-width: 100%;"></video>
+
+</details>
+
 # 🚗 AI-Based Real-time Accident Detection System
 
 A real-time AI-powered accident detection system that uses computer vision to detect road accidents, manage live surveillance feeds, and dispatch automated Telegram alerts.
